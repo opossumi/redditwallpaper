@@ -2,7 +2,8 @@
 """"
 Downloads top wallpapers from r/wallpapers and saves them to ~/.wallpapers
 
-Intended usage (run as user, not root):
+Intended usage (in crontab):
+HOME=/home/user
 0 * * * * /usr/local/bin/redditwallpaper_delayed
 */5 * * * * /usr/local/bin/change_wallpaper
 """
